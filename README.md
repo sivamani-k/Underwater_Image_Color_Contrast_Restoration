@@ -8,4 +8,4 @@ Underwater image processing is a vast area of research to identify blurred objec
 How to cite this article:
 *************************
 Kalyana Sundara Rajan S, Damodaran N. Multiscale decomposition and fusion-based color contrast restoration for various water-colored environments. Color Res
-Appl. 2021;1-28. doi:10.1002/col.22728
+Appl. 2021;1-28. [doi:10.1002/col.22728](https://onlinelibrary.wiley.com/doi/abs/10.1002/col.22728)https://onlinelibrary.wiley.com/doi/abs/10.1002/col.22728
