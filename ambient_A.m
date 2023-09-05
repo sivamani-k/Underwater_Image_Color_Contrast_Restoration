@@ -1,7 +1,5 @@
 function A=ambient_A(I)
-% I=im2double(imread('C:\Users\Administrator\Desktop\人机交互\matlab\hc.png'));
 
-%% 画图参数
 result=I;
 times=0;
 box_size=fix(min(size(I,1),size(I,2)));
@@ -49,7 +47,7 @@ while(box_size>=10)
         A(:,:)=max(mm)*ones(size(I,1),size(I,2));
     end
     box_size=fix(box_size-10);
-    %% 画图显示寻找过程
+    %% 鐢诲浘鏄剧ず瀵绘壘杩囩▼
     times=times+1;
     result(flag2(1):flag2(1)+1,flag2(3):flag2(4),1)=0.1*times;
     result(flag2(1):flag2(1)+1,flag2(3):flag2(4),2)=0.08*times;
