@@ -1,13 +1,6 @@
 function [out_img, time, trans_map, A] = fcn_multi(img)
 %The main function of multi-band enhancement.
-% 
-% The details of the algorithm are described in our paper: 
-% Model Assisted Multi-band Fusion for Single Image Enhancement and Applications to Robot Vision
-% Y. Cho, J. Jeong, A. Kim, IEEE RA-L, 2018
-% which can be found at:
-% http://irap.kaist.ac.kr/publications/ycho-2018-ral.pdf
-% If you use this code, please cite the paper.
-%
+
 %   Input arguments:
 %   ----------------
 %	- img : input haze image, type "double"
@@ -21,9 +14,7 @@ function [out_img, time, trans_map, A] = fcn_multi(img)
 %   - trans_map: transmission map
 %   - A: ampbient light
 %
-% Author: Younggun Cho (yg.cho@kaist.ac.kr)
-%
-% The software code is provided under the attached LICENSE.md
+
 
 addpath('msrcr_block/')
 scale_smooth = [1e-4, 1e-3, 1e-2]; 
